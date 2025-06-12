@@ -98,16 +98,19 @@ GROUP BY subcats.subcat;
 ```
 
 </details>
-✅ Applied Knowledge
+
+
+## ✅ Applied Knowledge
+
 This project demonstrates my ability to:
 
-Normalize raw data into a relational database schema
+    - Normalize raw data into a relational database schema
 
-Use SQLAlchemy ORM for data modeling and loading
+    - Use SQLAlchemy ORM for data modeling and loading
 
-Transform and enrich data with pandas
+    - Transform and enrich data with pandas
 
-Write multi-table SQL queries to generate actionable insights
+    - Write multi-table SQL queries to generate actionable insights
 
-📈 Tableau Visualizations (Coming Soon)
+## 📈 Tableau Visualizations (Coming Soon)
 I’ll be adding both embedded Tableau dashboards and links to interactive visualizations hosted online.
