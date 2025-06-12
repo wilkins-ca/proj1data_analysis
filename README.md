@@ -43,10 +43,10 @@ FROM sales
 GROUP BY sales.city, sales.state
 ORDER BY sales_sum DESC
 LIMIT 10;
+```
 </details> <details> <summary><strong>Average profit for each customer segment</strong></summary>
-sql
-Copy
-Edit
+
+```sql
 SELECT 
   ROUND(AVG(sales.profit)::numeric, 2) AS avg_profit, 
   segments.seg
@@ -65,8 +65,11 @@ JOIN subcats ON sales.subcat = subcats.id
 GROUP BY subcats.subcat
 ORDER BY avg_profit
 LIMIT 5;
+```
+
 </details> <details> <summary><strong>Sales totals by shipping mode and customer segment</strong></summary>
-sql
+
+```sql
 Copy
 Edit
 SELECT 
@@ -78,8 +81,12 @@ JOIN shippingmode ON sales.ship_mode = shippingmode.id
 JOIN segments ON sales.segment = segments.id
 GROUP BY shippingmode.mode, segments.seg
 ORDER BY total_sales;
+```
+
+
 </details> <details> <summary><strong>Average discount and profit per subcategory</strong></summary>
-sql
+
+```sql
 Copy
 Edit
 SELECT 
@@ -89,6 +96,8 @@ SELECT
 FROM subcats
 JOIN sales ON subcats.id = sales.subcat
 GROUP BY subcats.subcat;
+```
+
 </details>
 ✅ Applied Knowledge
 This project demonstrates my ability to:
