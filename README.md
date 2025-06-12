@@ -53,10 +53,12 @@ SELECT
 FROM sales
 JOIN segments ON sales.segment = segments.id
 GROUP BY segments.seg;
+```
+
+
 </details> <details> <summary><strong>Subcategories with the least overall profit</strong></summary>
-sql
-Copy
-Edit
+
+```sql
 SELECT 
   subcats.subcat, 
   ROUND(AVG(sales.profit)::numeric, 2) AS avg_profit
@@ -70,8 +72,6 @@ LIMIT 5;
 </details> <details> <summary><strong>Sales totals by shipping mode and customer segment</strong></summary>
 
 ```sql
-Copy
-Edit
 SELECT 
   ROUND(SUM(sales.sales_total)::numeric, 2) AS total_sales, 
   segments.seg, 
@@ -87,8 +87,7 @@ ORDER BY total_sales;
 </details> <details> <summary><strong>Average discount and profit per subcategory</strong></summary>
 
 ```sql
-Copy
-Edit
+
 SELECT 
   subcats.subcat, 
   ROUND(AVG(sales.discount)::numeric, 2) AS avg_discount, 
