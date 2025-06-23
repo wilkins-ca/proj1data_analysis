@@ -113,4 +113,27 @@ This project demonstrates my ability to:
     - Write multi-table SQL queries to generate actionable insights
 
 ## 📈 Tableau Visualizations (Coming Soon)
-I’ll be adding both embedded Tableau dashboards and links to interactive visualizations hosted online.
+
+### Top Performing Cities by Sales Total and their Profit
+
+![Top Cities](topCitiesbySalesandProfit.png)
+
+### Average Profit by Customer Segment
+
+![ProfBySeg](avgProfitbySeg.png)
+
+### Lowest Average Profit by Subcategory
+
+![LowProfit](lowestAvgProfitbySubcat.png)
+
+### Sales by Customer Segment and Ship Mode
+
+![SalesxSeg_Shipmode](salesbySegandShipMode.png)
+
+### Average Profit and Discount by Subcategory
+
+![AvgProfitandDisc](lowestAvgProfitbySubcat.png)
+
+## Note on the visualizations
+
+*You can view this dashboard live at https://public.tableau.com/app/profile/celia.wilkins/viz/Project1-KaggleSalesDataAnalysis/Summary*
